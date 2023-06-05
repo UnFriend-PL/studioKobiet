@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    /* font-family: 'Arapey', serif; */
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --col-particle: #536878;
+    --col-particle-stroke: #960303;
+    --col-particle-stroke-hover: #d00808;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+    /* height: 600vh; */
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    overflow-x: hidden;
+}
+
+.Wrap {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+
+::selection {
+    color: red;
+    background: rgba(255, 255, 255, 1)
+}
+
+
+/* -------------------------------MENU ------------------------------- */

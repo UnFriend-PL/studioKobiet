@@ -1,0 +1,109 @@
+.dietBlock {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    padding: 5rem;
+    flex-basis: 100%;
+}
+
+.dietBox {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+.dietTitle {
+    color: rgb(238, 114, 140);
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.dietTime {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.dietDesc {
+    color: rgb(142, 142, 143);
+    font-size: 1.2em;
+    line-height: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-basis: 60%;
+}
+
+.dietDesc ul {
+    text-align: left;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-basis: 60%;
+}
+
+.photoAboutMe {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.photoAboutMe img {
+    width: 100%;
+}
+
+.meDesc {
+    flex-basis: 68%;
+    padding-right: 2%;
+}
+
+@media (max-width: 1100px) {
+    .dietDesc {
+        flex-basis: 95%;
+    }
+    .aboutMe {
+        flex-basis: 95%
+    }
+    .meDesc.dietDesc {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 2%;
+    }
+    .photoAboutMe {
+        flex-basis: 80%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .dietBlock {
+        padding: 1.5rem;
+        flex-basis: 100%;
+    }
+}

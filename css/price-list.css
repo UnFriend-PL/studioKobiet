@@ -1,0 +1,121 @@
+.price-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
+    width: 100%;
+    /* height: 10vh; */
+    /* background-color: #333333; */
+}
+
+.priceSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 80%;
+}
+
+.sectionTitle {
+    flex-basis: 100%;
+    color: rgb(230, 111, 136);
+    text-align: center;
+    border-bottom: 1px solid rgba(132, 142, 143, 0.5);
+}
+
+.sectionSubTitle {
+    color: #8D374F;
+    flex-basis: 100%;
+    text-align: left;
+    font-size: 1.0em
+}
+
+.sectionContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: center;
+    flex-basis: 100%;
+}
+
+.sellingItem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    flex-basis: 49.95%;
+    margin-bottom: 4rem;
+}
+
+.sellingItem:nth-of-type(even) {
+    border-left: 1px solid #8D374F;
+}
+
+.priceName {
+    flex-basis: 70%;
+    padding: 2%;
+    text-align: right;
+    margin: 0 0 2% 0;
+}
+
+.cost {
+    flex-basis: 20%;
+    border-left: 1px solid rgba(132, 142, 143, 0.5);
+    padding: 2%;
+    margin: 0 0 2% 0;
+}
+
+.cost h3 {
+    border-bottom: 1px solid rgba(132, 142, 143, 0.5);
+    line-height: 2.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 2.5rem;
+}
+
+.priceDesc {
+    color: rgb(132, 142, 143);
+    border-top: 1px solid rgba(132, 142, 143, 0.5);
+}
+.markAsNew{
+    color: red;
+
+}
+@media (max-width: 1450px) {
+    .sellingItem {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: center;
+        flex-basis: 99%;
+    }
+    .sellingItem:nth-of-type(even) {
+        border-left: none;
+    }
+    .priceSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: justify;
+        width: 95%;
+        padding: 1%;
+    }
+}

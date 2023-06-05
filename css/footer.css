@@ -1,0 +1,89 @@
+.footer {
+    width: 100%;
+    background: white;
+    min-height: 10rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+    color: rgb(238, 114, 140)
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: 100%;
+}
+
+.author h5,
+h4 {
+    line-height: 0.0rem;
+}
+
+.author a {
+    color: rgb(229, 84, 115);
+}
+
+
+/* Follow US */
+
+.followUs {
+    width: 100%;
+    background: white;
+    height: 10rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+    color: rgb(238, 114, 140)
+}
+
+.followBox {
+    width: 100%;
+    height: 10rem;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.followBox {
+    flex-basis: 10%;
+    padding: 2%;
+}
+
+.followIco {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.followIco a {
+    color: rgb(132, 142, 143);
+    transition-duration: 0.5s;
+}
+
+.followIco a:hover {
+    color: rgb(238, 114, 140);
+    transition-duration: 0.5s;
+}
+
+.followText {
+    color: rgb(142, 142, 143);
+    flex-basis: 100%;
+    text-align: center;
+}

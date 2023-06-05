@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+* {
+    /* font-family: 'Arapey', serif; */
+}
+
+:root {
+    --col-particle: #536878;
+    --col-particle-stroke: #960303;
+    --col-particle-stroke-hover: #d00808;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* background-color: #F3D2D7; */
+    overflow-x: hidden;
+}
+
+.Wrap {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch; */
+    width: 100vw;
+    /* height: 250vh; */
+    /* height: 350vh; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+/* -------------------------------MENU ------------------------------- */

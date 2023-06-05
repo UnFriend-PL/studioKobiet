@@ -1,0 +1,25 @@
+.teamContent {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    padding: 5%;
+}
+
+.teamPhoto {
+    background-image: url("../img/team.jpg");
+    flex-basis: 40%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25rem;
+    border-radius: 15px;
+}
+
+.teamDesc {
+    color: rgb(132, 142, 143);
+    flex-basis: 60%;
+    font-size: 130%;
+}

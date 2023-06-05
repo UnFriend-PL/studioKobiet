@@ -1,0 +1,107 @@
+.chooseUs {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    z-index: 1;
+    min-height: 23rem;
+    /* background-color: red; */
+}
+
+.choosePhoto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: 50%;
+    min-height: 23rem;
+    height: 100%;
+    background-color: rgb(230, 111, 136);
+    /* background-image: url("../img/team.jpg"); */
+    background-image: url("../img/team_v2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2.5% 0 2.5% 0;
+}
+
+.chooseContent {
+    background-color: rgb(230, 111, 136);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: justify;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 0 2.5% 0 2.5%;
+    flex-basis: 45%;
+    min-height: 100%;
+    color: white;
+    /* padding: 1px; */
+    /* padding: 100px; */
+}
+
+.chooseTitle,
+.chooseDesc {
+    padding: 2.5% 2.5% 2.5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: justify;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.chooseExp {
+    padding: 2.5% 2.5% 2.5% 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: stretch;
+    flex-basis: 100%;
+}
+
+.chooseDesc {
+    color: rgb(249, 213, 216);
+}
+
+.expBox {
+    flex-basis: 33%;
+}
+
+.expNum .title {
+    font-size: 2.0em;
+}
+
+.expDesc {
+    color: rgb(244, 185, 188);
+    font-size: 75%;
+    text-align: justify;
+}
+
+@media (max-width: 1100px) {
+    .choosePhoto {
+        flex-basis: 100%;
+        /* min-height: 13rem; */
+        /* background-position-y: -150px; */
+        background-position-x: center;
+        /* background-size: cover; */
+        padding: 0;
+    }
+    .chooseContent {
+        flex-basis: 100%;
+    }
+    .expBox {
+        flex-basis: 28%;
+    }
+    .expNum {
+        font-size: 120%;
+    }
+}
